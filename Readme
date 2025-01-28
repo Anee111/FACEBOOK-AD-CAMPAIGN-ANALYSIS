@@ -1,1 +1,48 @@
+# FACEBOOK AD CAMPAIGN ANALYSIS
 
+Field Descriptions
+
+# ad_id:
+
+Unique identifier for the advertisement in the campaign.
+Used to track performance at the individual ad level.
+xyz_campaign_id:
+
+Identifier for the specific campaign.
+Groups multiple ads under a single marketing campaign.
+fb_campaign_id:
+
+Identifier for the Facebook campaign.
+Indicates that this campaign was run on Facebook's platform and tracks the associated Facebook-level metrics.
+age:
+
+Target age range of the audience for this specific ad (e.g., "30-34").
+Useful for demographic targeting.
+gender:
+
+Gender of the target audience (e.g., M for Male, F for Female).
+Used for audience segmentation and personalized marketing strategies.
+interest:
+
+An interest category associated with the target audience.
+Numbers likely map to predefined interest categories such as sports, technology, etc.
+Example: 15, 28, and 29 refer to different interest types.
+Impressions:
+
+Number of times the ad was displayed on users’ screens.
+A measure of ad reach but not necessarily engagement.
+Clicks:
+
+Number of times users clicked on the ad.
+Indicates engagement and interest in the ad content.
+Spent:
+
+Total money spent on displaying this specific ad (in dollars).
+Represents the ad budget utilization for the time period tracked.
+Total_Conversion:
+
+Total number of times users completed the desired action (e.g., form submission, website visit) after interacting with the ad.
+Often corresponds to all conversions tracked.
+Approved_Conversion:
+Number of conversions that were officially approved.
+Indicates specific conversions that met stricter criteria (e.g., purchases, qualified leads).
